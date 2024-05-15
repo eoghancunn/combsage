@@ -10,4 +10,4 @@ An example using the Cora dataset is included in *combsage_embedding_tutorial.ip
 
 *requirements.yml* contains the python environment used in the experiments described in the paper. 
 
-The training process is slow as it creates a Heterogenous graph to annotate edges in the network with their community memberships. Creation of this graph can be done upfront (see example) but managing samples from the heterogenous graph and original homogenous graphs creates a bottleneck for the training process. 
+The training process is slow as it creates a Heterogenous graph to annotate edges in the network with their community memberships. Creation of this graph can be done upfront (see example) but managing samples from the heterogenous graph and original homogenous graphs creates a bottleneck for training. 
